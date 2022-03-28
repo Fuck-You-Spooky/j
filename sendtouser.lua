@@ -19,4 +19,4 @@
 -- MMMMMMMM               MMMMMMMM     AAAAAAA                   AAAAAAA             CCCCCCCCCCCCC     RRRRRRRR     RRRRRRR          OOOOOOOOO     
                                                                                                    
                                              
-loadstring(game:HttpGet("https://raw.githubusercontent.com/falldrills/j/main/main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/falldrills/j/main/lessadvanced.lua", true))()
