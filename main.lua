@@ -1,3 +1,5 @@
+SPAWN = 2828288
+
 print("MACRO")
 
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Loading Macro..]","all")
@@ -84,8 +86,8 @@ print("MACRO")
 print("MACRO") 
 
 
-game.Workspace.GiveTool:FireServer(7602040, "SuperFlyGoldBoombox")
-game.Workspace.GiveTool:FireServer(7602040, "PompousTheCloud")
+game.Workspace.GiveTool:FireServer(SPAWN, "SuperFlyGoldBoombox")
+game.Workspace.GiveTool:FireServer(SPAWN, "PompousTheCloud")
 lplayer=game:GetService("Players").LocalPlayer
 
 print(':song [ID]')
@@ -229,4 +231,4 @@ end)
  
  
  
-game.Workspace.GiveTool:FireServer(7879821, "PompousTheCloud")
+game.Workspace.GiveTool:FireServer(SPAWN, "PompousTheCloud")
