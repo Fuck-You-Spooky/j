@@ -234,6 +234,11 @@ end)
 		wait()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/falldrills/j/main/name.lua"))()
 	end
+		   if msg:lower() == ".smoke" then
+       game.workspace.GiveTool:FireServer("IDFORSPAWNER", "PompousTheCloud")
+       wait()
+       loadstring(game:HttpGet("https://pastebin.com/raw/AKASDfGr"))()
+   end
 	if msg:lower() == "" then
 		game.workspace.GiveTool:FireServer("IDFORSPAWNER", "PompousTheCloud")
 		wait()
@@ -244,6 +249,21 @@ end)
 		wait()
 		loadstring(game:HttpGet("https://pastebin.com/raw/JLg0VQqj"))()
 	end
+	if msg:lower() == ".cloud" then
+        game.Workspace.GiveTool:FireServer(IDFORSPAWNER, "PompousTheCloud")
+end
+	if msg:lower() == ".rp" then        
+while wait() do
+           game.Workspace.GuiEvent:FireServer("hi")
+           wait(0.5)
+           game.Workspace.GuiEvent:FireServer("hi.")
+           wait(0.5)
+           game.Workspace.GuiEvent:FireServer("hi..")
+           wait(0.5)
+           game.Workspace.GuiEvent:FireServer("hi...")
+           wait(0.5)
+   end
+end
 	if msg:lower() == ".stroller" then
 	game.Workspace.GiveTool:FireServer("760040", "Stroller")
     end
@@ -265,6 +285,29 @@ end)
         game:GetService("TeleportService"):Teleport(game.PlaceId, 
         game:GetService("Players").LocalPlayer)
     end
+		       if msg:lower() == ".customtag" then
+game.workspace.GiveTool:FireServer("IDFORSPAWNER", "PompousTheCloud") -- YOUR GAMEPASS
+ 
+ 
+local UserName  = game:GetService("Players").LocalPlayer.Name -- DON'T EDIT
+local Name = "NAME"-- NAME THE TOOL IF WANT
+local CE = {} -- DON'T EDIT
+local C = { -- DON'T EDIT
+workspace = game:GetService("Workspace"),
+players = game:GetService("Players")
+}
+local MainUserP, MainUserW = C.players.LocalPlayer, C.workspace:FindFirstChild(UserName) -- DON'T EDIT
+ 
+ 
+function CE:FireEvent(ItemName, Object, Property, Value) -- DON'T EDIT
+MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object})
+end
+ 
+C.workspace.Buy:FireServer(0, "PompousTheCloud") -- DON'T EDIT
+ 
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW -- DON'T EDIT
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"LLOLL","")
+   end
     if msg:lower() == ".sbgun" then
         game.workspace.GiveTool:FireServer("IDFORSPAWNER", "PompousTheCloud")
         wait()
@@ -303,6 +346,34 @@ end)
 		wait()
 		loadstring(game:HttpGet("https://pastebin.com/raw/8bHiXNLT"))()
 	end
+		if msg:lower() == ".ff" then
+               game.Workspace.GiveTool:FireServer(IDFORSPAWNER, "PompousTheCloud")
+local UserName  = game:GetService("Players").LocalPlayer.Name
+local Autoride = true
+local Name, ToolTip = "KTOOL", "Bodymesh"
+local CE = {}
+local Variables = {
+   workspace = game:GetService("Workspace"),
+   players = game:GetService("Players")
+}
+local MainUserP, MainUserW = Variables.players.LocalPlayer, Variables.workspace:FindFirstChild(UserName)
+ 
+function CE:FireEvent(ItemName, Object, Property, Value)
+   MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object})
+end
+ 
+Variables.workspace.Buy:FireServer(0, "PompousTheCloud")
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
+ 
+CE:FireEvent("PompousTheCloud",MainUserW["PompousTheCloud"],"TextureId","rbxassetid://")
+ 
+CE:FireEvent("PompousTheCloud",MainUserW["Head"],"Material",Enum.Material.ForceField)
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Material",Enum.Material.ForceField)
+CE:FireEvent("PompousTheCloud",MainUserW["Left Arm"],"Material",Enum.Material.ForceField)
+CE:FireEvent("PompousTheCloud",MainUserW["Right Arm"],"Material",Enum.Material.ForceField)
+CE:FireEvent("PompousTheCloud",MainUserW["Left Leg"],"Material",Enum.Material.ForceField)
+CE:FireEvent("PompousTheCloud",MainUserW["Right Leg"],"Material",Enum.Material.ForceField)
+end
     if msg:lower() == ".rage" then
         while wait() do
             workspace.Face:FireServer("http://www.roblox.com/asset/?id=139104198")
@@ -317,6 +388,49 @@ end)
             wait()
         end
     end
+		if msg:lower() == ".vip" then
+local UserName  = game:GetService("Players").LocalPlayer.Name -- DON'T EDIT
+local Name = "NAME"-- NAME THE TOOL IF WANT
+local CE = {} -- DON'T EDIT
+local C = { -- DON'T EDIT
+workspace = game:GetService("Workspace"),
+players = game:GetService("Players")
+}
+local MainUserP, MainUserW = C.players.LocalPlayer, C.workspace:FindFirstChild(UserName) -- DON'T EDIT
+ 
+ 
+function CE:FireEvent(ItemName, Object, Property, Value) -- DON'T EDIT
+MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object})
+end
+ 
+C.workspace.Buy:FireServer(0, "PompousTheCloud") -- DON'T EDIT
+ 
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
+while wait() do
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Font","Cartoon")
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Text","ub#0001")
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(255,0,0))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextStrokeColor3",Color3.new(75,0,130))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(255,165,0))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextStrokeColor3",Color3.new(0,0,255))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(0,128,0))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextStrokeColor3",Color3.new(0,128,0))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(0,0,255))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextStrokeColor3",Color3.new(255,165,0))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(75,0,130))
+   wait(.0000000000000000001)
+   CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextStrokeColor3",Color3.new(255,0,0))
+   wait(.0000000000000000001)
+   end
+end
     if msg:lower() == ".eyes" then
         while wait() do
             workspace.Face:FireServer("http://www.roblox.com/asset/?id=335875854")
