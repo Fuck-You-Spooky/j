@@ -4,7 +4,7 @@ game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
 wait(3.0)
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Macro has loaded!","all")
 wait(0.5)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Macro is made by cvurid.]","all")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Macro is made by ub#0001]","all")
 game.Players.LocalPlayer.Chatted:connect(function(cmd)
 end)
 
@@ -219,7 +219,7 @@ MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
 CE:FireEvent("PompousTheCloud",MainUserW["PompousTheCloud"]["Handle"],"Transparency","1")
 CE:FireEvent("PompousTheCloud",MainUserW["PompousTheCloud"]["LocalScript"],"Disabled",true)
 CE:FireEvent("PompousTheCloud",MainUserW["Head"]["VIPTag"]["Txt"],"TextColor3",Color3.new(1,0,1))
-CE:FireEvent("PompousTheCloud",MainUserW["Head"]["VIPTag"]["Txt"],"Text","JayTheMasta Is ZADDY")
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["VIPTag"]["Txt"],"Text","ub#0001")
 CE:FireEvent("PompousTheCloud",MainUserW["Head"]["VIPTag"]["Txt"],"Font","Cartoon")
 CE:FireEvent("PompousTheCloud",MainUserW["Head"]["VIPTag"]["Txt"],"TextWrapped",false)
 CE:FireEvent("PompousTheCloud",MainUserW["Head"]["VIPTag"],"Size",UDim2.new(20, -200, 3, 20))
