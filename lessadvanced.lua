@@ -8,9 +8,11 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 game:GetService("Players").LocalPlayer.Chatted:Connect(function(msg)
     if msg:lower() == ".cmds" then
 		print[[--
-------------------------- Admin By Txl#7668 ------------------------- 
+-------------------------------------------------- 
 
 .cloud --gives u a cloud
+.rp --yeah...
+.tag --another tag
 .boombox --gives u a boombox
 .stroller --gives u the stroller
 .glock --gives u a pistol
@@ -41,6 +43,7 @@ game:GetService("Players").LocalPlayer.Chatted:Connect(function(msg)
 .large --gives u a uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 .fly --makes u fly toggle e
 .all --gives u all items
+.vip --gives u my discord as the nametag
 ]]
     end
     if msg:lower() == ".glock" then
@@ -92,7 +95,7 @@ CE:FireEvent("PompousTheCloud",MainUserW["PompousTheCloud"]["LocalScript"],"Disa
 CE:FireEvent("PompousTheCloud",MainUserW["PompousTheCloud"],"Name",Name)
     end
     
-    if msg:lower() == ",plane" then--add cmd inside " "
+    if msg:lower() == ".plane" then--add cmd inside " "
     local UserName  = game:GetService('Players').LocalPlayer.Name
 local Autoride = true
 
